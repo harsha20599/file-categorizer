@@ -3,7 +3,8 @@ from os import listdir
 import os
 from os.path import isfile, join
 
-#mapping the files to specific folders based on the extensions (abc.txt - where txt is a extension)
+# Mapping the files to specific folders based on the extensions (abc.txt - where txt is a extension)
+# You are free to add your own extension mappings if you'd like to.
 fileDict = {
     'img' : 'images',
     'jpg' : 'images',
