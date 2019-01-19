@@ -3,24 +3,28 @@ from os import listdir
 import os
 from os.path import isfile, join
 
-#creating a dictionary which contains folder names for the particular extensions
+#mapping the files to specific folders based on the extensions (abc.txt - where txt is a extension)
 fileDict = {
     'img' : 'images',
     'jpg' : 'images',
+    'png' : 'images',
+    'webp' : 'images',
+    'gif' : 'images',
     'mp3' : 'music',
     'wav' : 'music',
     'm4a' : 'music',
     'doc' : 'documents',
     'txt' : 'documents',
     'csv' : 'documents',
+    'docx' : 'documents',
     'xlsx' : 'documents',
     'pdf' : 'documents',
     'db': 'datbases',
-    'py' : 'pythonFiles',
+    'py' : 'python files',
     'ttf' : 'fonts',
-    'zip' : 'zips',
-    '7z' : 'zips',
-    'rar' : 'zips',
+    'zip' : 'compressed',
+    '7z' : 'compressed',
+    'rar' : 'compressed',
     'exe' : 'setups',
     'msi' : 'setups',
     'mp4' : 'videos',
@@ -28,8 +32,15 @@ fileDict = {
     'psd' : 'photoshop',
     'pptm' : 'presentations',
     'pptx' : 'presentations',
-    'htm' : 'html'
+    'htm' : 'html',
+    'xd' : 'Prototypes',
+    'pkg' : 'packages',
+    'img' : 'ISO',
+    'iso' : 'ISO',
+    'isz' : 'ISO',
+    'torrent' : 'torrent files'
 }
+
 #getting the working path where the file is going to excecute
 mypath = os.getcwd()
 
