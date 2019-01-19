@@ -6,4 +6,8 @@ on excecuting
 ```
 $ file-categorizer.py
 ```
-will categorize all your messy files into it's appropriate folders automatically.
+or opening the file with python intrepretor,
+
+![](how-to.gif)
+
+It will categorize all your messy files into it's appropriate folders automatically.
