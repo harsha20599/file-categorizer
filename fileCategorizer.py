@@ -8,6 +8,7 @@ from os.path import isfile, join
 fileDict = {
     'img' : 'images',
     'jpg' : 'images',
+    'jpeg' : 'images',
     'png' : 'images',
     'webp' : 'images',
     'gif' : 'images',
@@ -16,9 +17,7 @@ fileDict = {
     'm4a' : 'music',
     'doc' : 'documents',
     'txt' : 'documents',
-    'csv' : 'documents',
     'docx' : 'documents',
-    'xlsx' : 'documents',
     'pdf' : 'documents',
     'db': 'datbases',
     'py' : 'python files',
@@ -29,17 +28,24 @@ fileDict = {
     'exe' : 'setups',
     'msi' : 'setups',
     'mp4' : 'videos',
+    'mov' : 'videos',
     'ai'  : 'illustrator',
     'psd' : 'photoshop',
     'pptm' : 'presentations',
     'pptx' : 'presentations',
     'htm' : 'html',
-    'xd' : 'Prototypes',
-    'pkg' : 'packages',
+    'xd' : 'Design files',
+    'fig' : 'Design files',
+    'pkg' : 'softwares',
     'img' : 'ISO',
     'iso' : 'ISO',
     'isz' : 'ISO',
-    'torrent' : 'torrent files'
+    'torrent' : 'torrent files',
+    'csv' : 'excel',
+    'xlsx' : 'excel',
+    'dmg' : 'softwares',
+    
+    
 }
 
 #getting the working path where the file is going to excecute
@@ -98,3 +104,4 @@ else:
     print("Hoping to see you again. Good bye !")  
     
 print("Thanks for using the service\n Created by harsha20599")
+
